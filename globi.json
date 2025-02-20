@@ -13,6 +13,8 @@
     "delimiter" : ",",
     "headerRowCount" : 1,
     "null" : [ "" ],
+    "interactionTypeName": "ecologically co-occurs with",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0008506",
     "tableSchema" : {
       "columns" : [ {
         "name" : "ID",
@@ -23,7 +25,7 @@
         "titles" : "Compiler",
         "datatype" : "string"
       }, {
-        "name" : "Article_title",
+        "name" : "title",
         "titles" : "Article_title",
         "datatype" : "string"
       }, {
@@ -31,7 +33,7 @@
         "titles" : "Language",
         "datatype" : "string"
       }, {
-        "name" : "Authors",
+        "name" : "author",
         "titles" : "Authors",
         "datatype" : "string"
       }, {
@@ -39,11 +41,11 @@
         "titles" : "Institution",
         "datatype" : "string"
       }, {
-        "name" : "Year",
+        "name" : "year",
         "titles" : "Year",
         "datatype" : "string"
       }, {
-        "name" : "Journal",
+        "name" : "journal",
         "titles" : "Journal",
         "datatype" : "string"
       }, {
