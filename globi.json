@@ -13,8 +13,6 @@
     "delimiter" : ",",
     "headerRowCount" : 1,
     "null" : [ "" ],
-    "interactionTypeName": "ecologically co-occurs with",
-    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0008506",
     "tableSchema" : {
       "columns" : [ {
         "name" : "ID",
@@ -129,7 +127,7 @@
         "titles" : "Body_size",
         "datatype" : "string"
       }, {
-        "name" : "interactionTypeName",
+        "name" : "Interaction",
         "titles" : "Interaction",
         "datatype" : "string"
       }, {
